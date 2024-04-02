@@ -18,6 +18,7 @@ def test_inser_event():
 
     print(response)
 
+# @pytest.mark.skip(reason="Desnecessário")
 def test_get_event_by_id():
     event_id = "teste123"
     events_repository = EventsRepository()
